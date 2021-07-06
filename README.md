@@ -17,18 +17,19 @@ $ pip3
 ``` python
 from random import randint
 
-for _ in range(1, 11):
+for _ in range(0, 10):
     value = randint(1, 10)
     print(value)
 ```
+This is a for loop function that uses a range between 0 to 10 and then print a random 10 numbers between 1 to 10 
 
 **3. Save the file as "random_number.py":**
 
-**4. Run the python file using the following command:**
+**4. Open the terminal and navigate to the directory where the file located then run the python file using the following command:**
 
-   *$ python random_number.py*
+    $ python random_number.py
 
-**4. Output should be a random 10 numbers as shown but changing each time you run the file:**
+**4. Output should be a random 10 numbers as shown but it is changing each time you run the file:**
 
 ```bash
 6
